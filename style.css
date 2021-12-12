@@ -54,13 +54,13 @@ main img {
 
 header {
   background-color: #FF385C;
-  padding: 22px 22px 0 22px;
+  padding: 20px 20px 0 22px;
   text-align: center;
 }
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 70px;
+  font-size: 60px;
   color: #fff;
 }
 
@@ -109,8 +109,8 @@ form select, form input {
 }
 
 form button {
-  font-size: 25px;
-  padding: 16px;
+  font-size: 24px;
+  padding: 15px;
   width: 100%;
   background-color: #FF385C;
   border: none;
@@ -143,6 +143,11 @@ footer p {
     margin: 14px 0 14px 20px;
     padding-top: 0;
     font-size: 42px;
+  }
+  
+  form select, form input {
+    margin-bottom: 20px;
+    width: 180px;
   }
   
   header nav ul {
